@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+    <title> BOBO Shabu&Sushi </title>
+</head>
+<style>
+
+  .hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(50%);
+    transition: all 2s;
+  }
+
+  .show{
+    filter: blur(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .hidden1{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(50%);
+    transition: all 2s;
+  }
+
+  .show1{
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .hidden2{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-50%);
+    transition: all 2s;
+  }
+
+  .show2{
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .delay:first-child{
+    transition-delay: 200ms;
+  }
+
+  .delay:nth-child(2){
+    transition-delay: 30ms;
+  }
+
+  .delay:nth-child(3){
+    transition-delay: 500ms;
+  }
+
+
+
+
+
+</style>
+
+<body>
+
+  <section class="section_1">
+    <a href="https://catna29.github.io/portfolio/"> < Portfolio </a>
+  </section>
+
+  <section class="section_2">
+    <div></div>
+    <div class="hidden">
+      <h3> Product Idea</h3>
+      <p>BOBO Shabu & Sushi has been designed to simplify the process of ordering from menu. 
+        Primary goal is to provide users with convenient access to book a table and order food. 
+        This application not only displays menu but also indicates the status of order,
+        whether it’s being prepared or has been served. </p>
+
+      <h3>Problem</h3>
+      <p> 	On my last birthday, I wanted to have shabu for dinner. Unfortunately, 
+        I couldn’t find a table and had to wait at restuarant so long time. After finally getting 
+        a table and the menu, there wrer delays in placing order.  And not all the items 
+        I ordered were brought to table. These exprience inspired me to create an application 
+        for users who, like me, love to enjey shabu dinner </p>
+
+      
+    </div>
+  </section>
+  
+  <p class="moblie"> Mobile Application </p>
+
+  <section class="section_3">
+    <div class="target ">
+      <img src="image/section_3_1.png " alt="sakura">
+      <div class=" hidden1 ">
+        <h3 > Target Audience </h3>
+        <p> Users prefer to buy premium shabu that offers good value for its price. 
+          They enjoy dining with friends and family and prefer food that looks fancy. 
+          These users value fast ordering and efficient service.</p>
+      </div>
+    </div> 
+    <div class="sitemap hidden ">
+      <h3>Sitemap</h3>
+      <img src="image/section_3_2.png" alt="sitemap">
+    </div>
+  </section>
+
+  <section class="section_4 hidden">
+    <img src="image/user_flow_1.gif" alt="user flow">
+  </section>
+
+  <section class="section_5 wireframe">
+      <img class="hidden2" src="image/wireframe.gif" alt="wireframe">
+      <div class="wireframe_container hidden1">
+        <div>
+          <h3> wireframe </h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          </p>
+        </div>
+        <div class="col2">
+          <img src="image/wireframe_3.png" alt="wireframe">
+          <img src="image/wireframe_8.png" alt="wireframe">
+          <img src="image/wireframe_5.png" alt="wireframe">
+        </div>  
+      </div>
+  </section>
+
+
+  <section class="section_6 ">
+    <h3> Design  System </h3>
+    <div class="design_system scroll_animate1">
+  
+        <div class="typography delay hidden">
+          <h4> TYPOGRAPHY</h4>
+          <div>
+            <p> <span>
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+              abcdefghijklmnopqrstuvwxyz
+          </span>
+              
+          </p>
+          <p> Lexend Deca 
+              REGULAR/SEMI BOLD 
+          </p>
+          <p>  6 12 14 16 20 48 </p>
+
+          </div>
+          
+          <div>
+            <p> <span>
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+            abcdefghijklmnopqrstuvwxyz
+          </span>
+          </p>
+          <p> Cormorant Garamond
+            REGULAR/SEMI BOLD
+          </p>
+          <p>  12 16 24 32 36 </p> 
+          </div>
+          
+          
+        </div>
+  
+
+        <div class="delay hidden">
+          <h4> TAB BAR </h4>
+          <img src="image/section_6_iconbar.png" alt="tab bar">
+        </div>
+
+        <div class="delay hidden">
+          <h4><span>COLORS  </span> </h4>
+          <img src="image/section_6_color_500x450.png" alt="colors">
+        </div>
+      
+     
+    </div>
+  </section>
+
+  <section  class="section_7">
+    <h3 class="hidden1"> Prototype </h3>
+
+  </section>
+
+  <section  class="section_8 hidden">
+  </section>
+
+
+
+
+
+  
+    
+</body>
+</html>
